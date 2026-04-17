@@ -1,0 +1,18 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(58, 63, 138);
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(30, 30, 90);
+  text-align: center;
+  padding: 10px;
+}
