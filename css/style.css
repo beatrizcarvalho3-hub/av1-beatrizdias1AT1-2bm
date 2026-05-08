@@ -4,13 +4,13 @@ body {
   margin: 0;
   padding: 0px;
 }
-
 header {
   background-color: #92ace4;
   color: #000000;
   padding: 10px 20px;
   text-align: center;
 }
+
 nav {
   background-color: #f1f1f1;
   overflow: hidden;
@@ -41,4 +41,44 @@ footer {
   color: #000000;
   text-align: center;
   padding: 15px;
+}
+
+.alysa-page {
+  font-family: "Comfortaa", cursive;
+}
+
+.alysa-page h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.alysa-page h2 {
+  font-family: "Trebuchet MS;";
+}
+
+.container {
+  display: flex; /* Ativa o Flexbox */
+  align-items: center; /* Centraliza verticalmente (opcional) */
+  gap: 15px; /* Adiciona um espaço entre imagem e texto */
+}
+
+img {
+  animation: flutuar 5s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.centro {
+  justify-content: center;
+  align-items: center;
+  height: 67vh;
 }
