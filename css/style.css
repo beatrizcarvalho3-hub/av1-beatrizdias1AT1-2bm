@@ -49,6 +49,7 @@ footer {
 
 .alysa-page h1 {
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .alysa-page h2 {
@@ -81,4 +82,9 @@ img {
   justify-content: center;
   align-items: center;
   height: 67vh;
+}
+
+h1 {
+  font-family: "VT323", monospace;
+  text-align: center;
 }
